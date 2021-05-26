@@ -1,0 +1,92 @@
+---
+Operator: WIDE Project
+IPv4: 202.12.27.33
+IPv6: 2001:dc3::35
+ASN: '7500'
+Homepage: http://m.root-servers.org/
+Statistics: ''
+Peering Policy: http://as7500.peeringdb.com/
+Contact Email: as7500@nspixp.wide.ad.jp
+RSSAC: https://rssac.wide.ad.jp/rssac002-metrics/
+Identifier Naming Convention: ''
+Instances:
+- Country: JP
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - M-KIX-1
+  - M-KIX-2
+  - M-KIX-3
+  Latitude: '34.6937378'
+  Longitude: '135.5021651'
+  Sites: 1
+  Town: Osaka
+  Type: Global
+- Country: FR
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - M-CDG-1
+  - M-CDG-2
+  - M-CDG-3
+  - M-CDG-4
+  - M-ORY-1
+  - M-ORY-2
+  - M-ORY-3
+  - M-ORY-4
+  Latitude: '48.856614'
+  Longitude: '2.3522219'
+  Sites: 2
+  Town: Paris
+  Type: Global
+- Country: US
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - M-SFO-1
+  - M-SFO-2
+  - M-SFO-3
+  - M-SFO-4
+  - M-SJC-1
+  - M-SJC-2
+  - M-SJC-3
+  - M-SJC-4
+  Latitude: '37.7749295'
+  Longitude: '-122.4194155'
+  Sites: 2
+  State: CA
+  Town: San Francisco
+  Type: Global
+- Country: KR
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - M-ICN-1
+  - M-ICN-2
+  - M-ICN-3
+  Latitude: '37.566535'
+  Longitude: '126.9779692'
+  Sites: 1
+  Town: Seoul
+  Type: Local
+- Country: JP
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - M-NRT-DIXIE-1
+  - M-NRT-DIXIE-2
+  - M-NRT-DIXIE-3
+  - M-NRT-DIXIE-4
+  - M-NRT-JPIX-1
+  - M-NRT-JPIX-2
+  - M-NRT-JPIX-3
+  - M-NRT-JPIX-4
+  - M-NRT-JPNAP-1
+  - M-NRT-JPNAP-2
+  - M-NRT-JPNAP-3
+  - M-NRT-JPNAP-4
+  Latitude: '35.6894875'
+  Longitude: '139.6917064'
+  Sites: 3
+  Town: Tokyo
+  Type: Global

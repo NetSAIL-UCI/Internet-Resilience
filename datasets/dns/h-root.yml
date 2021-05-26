@@ -1,0 +1,82 @@
+---
+Operator: U.S. Army Research Lab
+IPv4: 198.97.190.53
+IPv6: 2001:500:1::53
+ASN: '1508'
+Homepage: https://h.root-servers.org/
+Statistics: https://h.root-servers.org/
+Peering Policy: ''
+Contact Email: hroot@arl.army.mil
+RSSAC: https://h.root-servers.org/rssac.html
+Identifier Naming Convention: <NODE>.<IATA Code>.h.root-servers.org
+Instances:
+- Country: US
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - 001.apg.h.root-servers.org
+  - 002.apg.h.root-servers.org
+  - 003.apg.h.root-servers.org
+  Latitude: '39.476245'
+  Longitude: '-76.119154'
+  Sites: 1
+  State: MD
+  Town: Aberdeen Proving Ground
+  Type: Global
+- Country: AE
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '25.02369'
+  Longitude: '55.18639'
+  Sites: 1
+  Town: Dubai
+  Type: Global
+- Country: DE
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '50.11944'
+  Longitude: '8.735556'
+  Sites: 1
+  Town: Frankfurt
+  Type: Global
+- Country: HK
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '22.36222'
+  Longitude: '114.1189'
+  Sites: 1
+  Town: Hong Kong
+  Type: Global
+- Country: ZA
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '-26.13778'
+  Longitude: '28.1975'
+  Sites: 1
+  Town: Johannesburg
+  Type: Global
+- Country: US
+  IPv4: 'Yes'
+  IPv6: 'No'
+  Latitude: '32.706253'
+  Longitude: '-117.237842'
+  Sites: 1
+  State: CA
+  Town: San Diego
+  Type: Global
+- Country: BR
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '-23.46611'
+  Longitude: '-46.86306'
+  Sites: 1
+  Town: Sao Paulo
+  Type: Global
+- Country: AU
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '-33.91167'
+  Longitude: '151.1928'
+  Sites: 1
+  Town: Sydney
+  Type: Global

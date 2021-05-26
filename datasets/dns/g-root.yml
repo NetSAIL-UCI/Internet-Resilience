@@ -1,0 +1,63 @@
+---
+Operator: Defense Information Systems Agency
+IPv4: 192.112.36.4
+IPv6: 2001:500:12::d0d
+ASN: '5927'
+Homepage: http://disa.mil/g-root
+Statistics: ''
+Peering Policy: ''
+Contact Email: ''
+RSSAC: http://www.disa.mil/G-Root/G-Root-Stats
+Identifier Naming Convention: ''
+Instances:
+- Country: US
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '39.9611755'
+  Longitude: '-82.9987942'
+  Sites: 1
+  State: OH
+  Town: Columbus
+  Type: Global
+- Country: JP
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '35.7384505'
+  Longitude: '139.3269322'
+  Sites: 1
+  Town: Fussa
+  Type: Global
+- Country: US
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '21.3069444'
+  Longitude: '-157.8583333'
+  Sites: 1
+  State: HI
+  Town: Honolulu
+  Type: Global
+- Country: IT
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '40.8517746'
+  Longitude: '14.2681244'
+  Sites: 1
+  Town: Naples
+  Type: Global
+- Country: US
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '29.4241219'
+  Longitude: '-98.4936282'
+  Sites: 1
+  State: TX
+  Town: San Antonio
+  Type: Global
+- Country: DE
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Latitude: '48.7303646'
+  Longitude: '9.1079418'
+  Sites: 1
+  Town: Stuttgart-Vaihingen
+  Type: Global

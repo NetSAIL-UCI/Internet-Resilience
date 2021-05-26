@@ -1,0 +1,33 @@
+<div id="header-portrait">
+	<a id="telegeography-logo-portrait" onclick="window.open(this.href, 'tg'); return false;" href="http://www.telegeography.com/"></a>
+	<h1>Submarine Cable Map</h1>
+  <div class="company-logo-portraits">
+    <a class="company-logo-portrait huawei-marine-logo" href="http://www.huaweimarine.com/en/?utm_medium=display&utm_source=corp_submarinecablemap&utm_campaign=alwayson"></a>
+  	<a class="company-logo-portrait equinix-logo" href="https://www.equinix.com/?ls=Advertising%20-%20Web&lsd=19q1_cross-vertical_no-program__vertical_Equinix-run_partner-site_telegeography_us-en_AMER_TeleGeography-Submarine-Cable-Map&utm_campaign=us-en_telegeography_partner-site_TeleGeography-Submarine-Cable-Map_vertical&utm_source=telegeography&utm_medium=partner-site&utm_content=no-program_telegeoraphy-cable-map+eqix-logo-link"></a>
+  </div>
+	<span class="company-portrait">Sponsored in part by Huawei Marine</span>
+</div>
+
+{{ map-container }}
+<div id="side_bar">
+	<div id="header">
+		<a id="telegeography-logo" onclick="window.open(this.href, 'tg'); return false;" href="http://www.telegeography.com/"></a>
+		<h1>Submarine Cable Map</h1>
+		<p>The Submarine Cable Map is a free and regularly updated resource from TeleGeography.</p>
+		<p>Got a question about how we make this map? Or about how submarine cables work? <a onclick="window.open('http://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions','tg'); return false;" href="http://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions">Look no further</a>.</p>
+    {{company-logos}}
+		<div id="footer">
+			<span class="company">Sponsored in part by Huawei Marine</span>
+			<a href="https://github.com/telegeography/www.submarinecablemap.com" class="github"></a>
+			<a href="http://www.facebook.com/sharer.php?u=http://www.submarinecablemap.com/" class="facebook"></a>
+			<a href="https://twitter.com/share?original_referer=http%3A%2F%2Fwww.submarinecablemap.com%2F&amp;source=tweetbutton&amp;text=Submarine+Cable+Map&amp;url=http%3A%2F%2Fwww.submarinecablemap.com" class="twitter"></a>
+			<a href="mailto:cablemap@telegeography.com">Feedback</a>
+		</div>
+	</div>
+		<div id="nav" class="ui-widget">
+			<input id="search">
+		</div>
+	<div id="content">{{outlet}}</div>
+	{{copyright-year}}
+</div>
+<div id="updated-on"><a onclick="window.open(this.href,'github'); return false;" href="https://github.com/telegeography/www.submarinecablemap.com"></a></div>

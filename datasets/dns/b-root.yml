@@ -1,0 +1,92 @@
+---
+Operator: Information Sciences Institute
+IPv4: 199.9.14.201
+IPv6: 2001:500:200::b
+ASN: '394353'
+Homepage: http://b.root-servers.org/
+Statistics: https://b.root-servers.org/rssac/
+Peering Policy: ''
+Contact Email: b-poc@isi.edu
+RSSAC: http://b.root-servers.org/rssac/
+Identifier Naming Convention: b<N>-<IATA Code>
+Instances:
+- Country: Netherlands
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - b1-ams
+  - b2-ams
+  - b3-ams
+  - b4-ams
+  Latitude: '52.366'
+  Longitude: '4.894'
+  Sites: 1
+  Town: Amsterdam
+  Type: Global
+- Country: Chile
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - b1-ari
+  - b2-ari
+  - b3-ari
+  Latitude: '-18.483'
+  Longitude: '-70.333'
+  Sites: 1
+  Town: Arica
+  Type: Global
+- Country: USA
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - b1-lax
+  - b2-lax
+  - b3-lax
+  - b4-lax
+  Latitude: '34.05'
+  Longitude: '-118.25'
+  Sites: 1
+  State: California
+  Town: Los Angeles
+  Type: Global
+- Country: USA
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - b1-mia
+  - b2-mia
+  - b3-mia
+  - b4-mia
+  Latitude: '25.775'
+  Longitude: '-80.209'
+  Sites: 1
+  State: Florida
+  Town: Miami
+  Type: Global
+- Country: USA
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - b1-iad
+  - b2-iad
+  - b3-iad
+  - b4-iad
+  Latitude: '38.944'
+  Longitude: '-77.456'
+  Sites: 1
+  State: Virginia
+  Town: Reston
+  Type: Global
+- Country: Singapore
+  IPv4: 'Yes'
+  IPv6: 'Yes'
+  Identifiers:
+  - b1-sin
+  - b2-sin
+  - b3-sin
+  - b4-sin
+  Latitude: '1.283'
+  Longitude: '103.833'
+  Sites: 1
+  Town: Singapore
+  Type: Global
