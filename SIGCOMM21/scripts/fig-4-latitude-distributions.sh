@@ -36,8 +36,8 @@ bash getLatitudeDistr.sh ../processedData/ixp-list.txt $ixpCount >> ../processed
 ## Get Population Distribution 
 rm ../processedData/pop-list.txt ../processedData/pop-data-lat.txt
 cat ../datasets/population-data/gpw-v4-population-count-rev11_2020_1_deg_asc/gpw_v4_population_count_rev11_2020_1_deg.asc | \
-        awk -v OFMT='%i' '{
-                if(NR > 5){
+        awk '{
+                if(NR > 6){
                         latitude = 96 - NR;
                         for(i = 1; i <= NF; i++){
                                 if($i != -9999){
