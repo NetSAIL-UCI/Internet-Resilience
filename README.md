@@ -18,10 +18,10 @@ All datasets except CAIDA and ITU datasets used in the paper have been added to 
 
 **Generating Plots**
 
+All scripts required for generating the plots are in the "scripts" folder. For example, generate Fig 3:
+
 cd scripts/
 
-bash fig-n-*.sh
-
-(Generates Fig n in the paper)
+bash fig-3-getLandingPtDistr.sh
 
 The output plots are stored in the "outputs" folder and the intermediate data in the "processedData" folder.
