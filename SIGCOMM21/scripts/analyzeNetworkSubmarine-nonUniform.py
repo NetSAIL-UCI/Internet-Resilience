@@ -47,12 +47,11 @@ with open(filename) as f:
         vals = line.split()
         cabRepCount[int(vals[0])] = (int(vals[2]), int(vals[3]), int(vals[4]))
 
-failType = sys.argv[1]
-level1 = sys.argv[2]
-level2 = sys.argv[3]
-level3 = sys.argv[4]
+level1 = sys.argv[1]
+level2 = sys.argv[2]
+level3 = sys.argv[3]
 
-filePrefix = "../processedData/submarineCables/submarine-" + failType + "-" + level1 + "-" + level2 + "-" + level3
+filePrefix = "../processedData/submarineCables/submarine-nonUniform-" + level1 + "-" + level2 + "-" + level3
 
 processNodeAndLinkFailures(nodeToCablesDict, cableToLevelDict, cabRepCount, filePrefix, float(level1), float(level2), float(level3))
     
