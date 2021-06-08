@@ -5,7 +5,7 @@ totCables=`wc -l < ../processedData/submarine-landingPts.txt`
 
 ## Get PDF distribution 
 rm ../processedData/submarine-endPts-per-lat.txt
-cat ../processedData/submarine-landingPts.txt | awk -v totCables=$totCables '
+cat ../processedData/submarine-landingPts.txt | awk -v totCables="$totCables" '
 	BEGIN{
 		for(i = -45; i < 46; i++){
 			a[i]=0;
@@ -28,11 +28,11 @@ cat ../processedData/submarine-landingPts.txt | awk -v totCables=$totCables '
 
 #Get total population for computing PDF
 totPopulation=`cat ../datasets/population-data/gpw-v4-population-count-rev11_2020_1_deg_asc/gpw_v4_population_count_rev11_2020_1_deg.asc | \
-	awk -v OFMT='%i' '{
-		if(NR > 5){
+	awk '{
+		if(NR > 6){
 			for(i = 1; i <= NF; i++){
 				if($i != -9999){
-					totPop+=$i;
+                    totPop+=$i;
 				}
 			}
 		}
@@ -41,19 +41,19 @@ totPopulation=`cat ../datasets/population-data/gpw-v4-population-count-rev11_202
 # Using total population and latitude interval of 2 degree compute PDF and save to file
 rm ../processedData/pop-data-per-lat.txt
 cat ../datasets/population-data/gpw-v4-population-count-rev11_2020_1_deg_asc/gpw_v4_population_count_rev11_2020_1_deg.asc | \
-        awk -v OFMT='%0.8f' -v totPop=$totPopulation '{
-                if(NR > 5){
-			latitude = 96 - NR;
+        awk -v totPop="$totPopulation" '{
+                if(NR > 6){
+			            latitude = 96 - NR;
                         for(i = 1; i <= NF; i++){
                                 if($i != -9999){
-                                        pop+=$i;
+                                    pop+=$i;
                                 }
                         }
-			if (latitude % 2 == 0) {
-				print latitude, pop, pop * 100 / totPop;
-				pop = 0;
-			}
-                }
+			    if (latitude % 2 == 0) {
+				    print latitude, pop, pop * 100 / totPop;
+				    pop = 0;
+			    }
+             }
         }' >> ../processedData/pop-data-per-lat.txt
 
 gnuplot plot-fig-3.plt
